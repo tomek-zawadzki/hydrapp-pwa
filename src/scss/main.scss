@@ -33,15 +33,15 @@ body {
 }
 
 .glass {
-  &__shape {
-    position: relative;
-    width: 280px;
-    height: 280px;
-  }
+  position: relative;
+  width: 280px;
+  height: 280px;
+  background-image: url(../assets/img/water-glass.svg);
   &__number {
-    position: absolute;
-    top: 280px;
-    left: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
